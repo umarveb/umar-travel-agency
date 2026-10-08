@@ -1,0 +1,335 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+      
+padding: 0;
+margin: 0;
+
+
+    font:14px/1.65 'Poppins',Verdana,sans-serif;
+    
+    
+}
+hr{
+    display: none;
+
+}
+
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 34, 189);
+    top: 0;
+   z-index:1;
+    padding: 10px;
+    position: sticky;
+}
+.links a{
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none
+    ;
+     font-weight:600;
+    color: white;
+       transition: all ease-in-out 100ms;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    
+}
+.humberger{
+    border: solid grey  2px;
+    display: none;
+    border-radius: 4px;
+    padding: 3px;
+
+}
+ .bar{
+    height:4px;
+    flex-basis: 100px;
+    background-color:white;
+    margin: 4px;
+    width: 34px;
+}
+section
+
+{
+    height:600px;
+    background:
+    
+    
+    
+    url(naran.png)  right center/cover no-repeat;} 
+ 
+    
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(115, 34, 189);
+    color: white;
+    padding: 60px;
+    
+}
+
+
+.continer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+    
+    
+    
+}
+.cont{
+    padding: 20px;
+    margin: 70px;
+    
+    
+
+ 
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size:larger;
+}
+.btn{
+margin: 18px;
+    
+
+}
+
+.div{
+    background-color: red;
+    
+}
+.dist{
+  padding: 20px;
+    background-color:wheat;
+    text-align: center;
+    
+}
+
+.destination{
+    display:grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    
+    
+    gap:2rem;
+     margin-left: 20px; 
+
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    
+}
+
+h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+
+}
+h2{
+    
+    font-weight: 700;
+}
+
+.feature1 {
+background-color:white;
+width: 360px;
+border-radius: 20px;
+box-shadow: rgb(116, 114, 114) 1px 1px 2px 1px;
+
+
+
+
+}
+
+
+.img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img :hover{
+
+}
+
+
+ .p {
+ color: gray;
+ font-size: medium;
+  }  
+    
+
+
+.no{
+    padding: 20px;
+    text-align: center;
+    
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 60px;
+}
+
+.main{
+    color:white; font-size:48px;
+    font-weight: 700;
+    
+}
+.bn{
+    margin: 50px;
+}
+.head1{
+    font-size: 38px;
+    margin: 30px;
+    font-weight: 700;
+}
+.img1{
+    border-radius: 20px 20px 20px 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+}
+
+
+.head-policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: white;
+    font-weight: 400;
+        background-color:rgb(115, 34, 189);
+    
+    
+}
+.para{
+   color: white; margin: 35px; 
+}
+
+@media(max-width:768px){
+     nav{
+        flex-wrap: wrap;
+
+
+     }
+
+     .links ul{
+        flex-direction: column;
+        background-color: white;
+        width: fit-content;
+         display: flex;
+        
+        
+     }
+
+     .humberger {
+        display: block;
+        
+     }
+     
+hr{
+    display: block;
+    width: 310px;
+     
+     
+
+}
+.links a{
+    color: black;
+}
+.links{
+    display: none;
+}
+.footer{
+    flex-direction: column;
+}
+
+
+.continer{
+    flex-direction: column;
+       
+
+}
+
+.destination{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    
+}
+.about{
+    flex-direction: column;
+    
+
+}
+.img1{
+    width: 350px;
+    
+}
+
+.cont{
+    padding: none;
+    margin: none;
+    
+    width: 315px;
+}
+.para{
+    margin:20px;
+}
+.main{
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+.bn{
+    margin: 30px;
+}
+
+.head1{
+    font-size: 32px;
+    margin: 20px;
+    
+    
+    
+}
+
+
+.foot{
+    padding: 0;
+}
+.destination{
+align-items: center;
+justify-content: center;
+}
+
+}

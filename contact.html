@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+      
+padding: 0;
+margin: 0;
+
+
+    font:14px/1.65 'Poppins',Verdana,sans-serif;
+    
+    
+}
+h2{
+    font-weight: 700;
+}
+hr{
+    display: none;
+
+}
+
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 34, 189);
+    top: 0;
+   z-index:1;
+    padding: 10px;
+    position: sticky;
+}
+.links a{
+    display: flex;
+    padding: 20px 20px;
+    text-decoration: none
+    ;
+    color: white;
+     font-weight:600;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    
+}
+.humberger{
+    border: solid grey  1px;
+    display: none;
+    border-radius: 4px;
+    padding: 3px;
+
+}
+
+ .bar{
+    height:5px;
+    flex-basis: 100px;
+    background-color:white;
+    margin: 4px;
+    width: 34px;
+
+    
+}
+
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(115, 34, 189);
+    color: white;
+    padding: 60px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 4px;
+}
+
+h1
+{
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form1{
+    background-color:white;
+    text-align: center;
+    width:450px;
+    box-shadow: gray 1px 1px 4px 1px;
+    margin: 16px;
+    border-radius: 12px;
+
+}
+input{
+    padding: 18px 80px;
+    border-radius: 12px;
+    margin: 6px;
+    border: solid grey 1px;
+    
+}
+textarea{
+    height: 100px ;
+    width:330px;
+     border-radius: 10px;
+}
+
+.head1{
+    
+    margin:16px;
+    
+    text-align: center;
+    
+}
+
+.head-policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: white;
+    font-weight: 400;
+        background-color:rgb(115, 34, 189);
+    
+    
+}
+
+
+@media(max-width:786px){
+     nav{
+        flex-wrap: wrap;
+
+
+     }
+
+     .links ul{
+        flex-direction: column;
+        background-color: white;
+        width: fit-content;   
+        
+     }
+     
+.links{
+    display: none;
+}
+
+     .humberger {
+        display: block;
+     }
+     
+hr{
+    display: block;
+     width:310px;
+
+}
+.links a{
+    color: black;
+    
+}
+
+.footer, .form2{
+    flex-direction: column;
+}
+.foot{
+    margin: 20px;
+    padding: 10px;
+    
+}
+.form1{
+    width: 330px;
+}
+input{
+    padding: 20px 65px;
+}
+textarea{
+    width: 290px;
+}
+
+
+
+.foot{
+    padding: 0;
+}
+}
+</style>
+
+
+</head>
+<body>
+
+    <nav>
+<div class="logo">
+    <img src="image.png" alt="" height="110px" width="140px">
+</div>
+<div class="humberger">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<div class="links">
+    <ul>
+        <li><a href="index.html">Home</a></li><hr>
+        <li><a href="about.html">About</a></li><hr>
+        <li><a href="tour-pakages.html">Tour Pakages</a></li><hr>
+        <li><a href="contact.html">Contact</a></li><hr>
+    </ul>
+</div>
+
+    </nav>
+
+  <div class="head1"><h1>
+    Contact Us
+  </h1></div>
+
+
+<section>
+   <div class="form2">
+    <div class="form1">
+<form action="">
+First Name:
+<br>
+<input type="text" required placeholder="Enter Your First Name">
+<br>
+Last Name: <br>
+<input type="text" required placeholder="Enter Your Last Name"> <br>
+Address: <br>
+<input type="text" required placeholder="Enter You Address"> <br>
+ Phone Number: <br>
+ <input type="number" name="" id="" required placeholder="Enter Your Phone No."> <br>
+ Email:
+ <br>
+ <input type="email" required placeholder="Enter Your Email"> <br>
+ Message: <br>
+ <textarea rows="5" cols="8" ></textarea> <br>
+
+ <input type="submit" style="color:white; font-size:16px; background-color: rgb(49, 156, 49); font-weight: 700; margin-bottom: 10px;">
+</form>
+
+    </div>
+    </div>
+
+</section>
+
+<section1>
+    <div class="footer">
+        <div class="foot">  <h2>Umar Travel Agency</h2>
+              <p>Umar tour agency located <br>in islamabad, pakistan.
+              </p>
+        </div>
+        <div class="foot"> 
+            <h2>Short Links</h2>
+            
+             <a href="index.html">Home</a><br>
+             <a href="contact.html">Contact</a><br>
+             <a href="tour-pakages.html">Tour Pakages</a>
+
+        </div>
+        <div class="foot"> 
+      
+<h2>Contact Us</h2>
+
+   <p> Whatsapp: 03190510233</p>
+
+   <p> Call : 03190510233</p>
+
+        </div>
+    </div>
+    
+</section1>
+
+       
+  <div class="head-policy"><p>
+     All rights are resereved by Umar Travel Agency.
+  </p></div>
+
+    <script >
+
+const humberger = document.querySelector(".humberger");
+const links = document.querySelector(".links");
+ let menueOpen= false;
+
+ humberger.addEventListener('click',()=>{
+    if(menueOpen==false){
+        links.style.display="block";
+        menueOpen=true;
+    }
+    else if(menueOpen==true){
+           links.style.display="none";
+menueOpen= false;
+    }
+ });
+</script>
+
+</body>
+</html>

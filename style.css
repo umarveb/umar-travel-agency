@@ -51,7 +51,7 @@ nav{
     border: solid grey  2px;
     display: none;
     border-radius: 4px;
-    padding: 1px;
+    
 
 }
  .bar{
@@ -59,7 +59,7 @@ nav{
     flex-basis: 100px;
     background-color:white;
     margin: 4px;
-    width: 34px;
+    width: 30px;
 }
 section
 
@@ -239,6 +239,7 @@ a{
 @media(max-width:768px){
      nav{
         flex-wrap: wrap;
+        padding:3px;
 
 
      }
@@ -286,6 +287,10 @@ hr{
     flex-direction: column;
     margin-left: 0;
     
+align-items: center;
+justify-content: center;
+
+    
 }
 .about{
     flex-direction: column;
@@ -325,12 +330,18 @@ hr{
 
 
 .foot{
-    padding: 0;
-}
-.destination{
-align-items: center;
-justify-content: center;
+    width: 300px;
 }
 
+
+
+
+.img{
+    width: 337px;
+}
+.feature1{
+    width: 337px;
+    
+}
 
 }

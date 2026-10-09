@@ -51,7 +51,7 @@ nav{
     border: solid grey  2px;
     display: none;
     border-radius: 4px;
-    padding: 3px;
+    padding: 1px;
 
 }
  .bar{
@@ -331,5 +331,6 @@ hr{
 align-items: center;
 justify-content: center;
 }
+
 
 }

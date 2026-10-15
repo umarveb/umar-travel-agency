@@ -51,6 +51,7 @@ nav{
     border: solid grey  1px;
     display: none;
     border-radius: 4px;
+    padding: 5px;
     
 
 }
@@ -59,7 +60,7 @@ nav{
     flex-basis: 100px;
     background-color:white;
     margin: 3px;
-    width: 29px;
+    width: 27px;
 }
 section
 
@@ -109,7 +110,7 @@ p{
     font-size:larger;
 }
 .btn{
-margin: 18px;
+margin: 8px;
     
 
 }
@@ -187,7 +188,7 @@ box-shadow: rgb(116, 114, 114) 1px 1px 2px 1px;
 
 
 .no{
-    padding: 20px;
+    padding: 8px;
     text-align: center;
     
 }
@@ -239,7 +240,7 @@ a{
 @media(max-width:768px){
      nav{
         flex-wrap: wrap;
-        padding:3px;
+        padding:10px;
 
 
      }
